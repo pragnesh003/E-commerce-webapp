@@ -133,7 +133,7 @@ async function addProduct() {
         {
             "title": "Infinix INBOOK",
             "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-            "stock": 96,
+            "price": 2100,
             "brand": "Infinix",
             "category": "laptops",
             "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
