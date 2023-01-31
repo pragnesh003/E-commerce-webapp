@@ -53,7 +53,7 @@ const Home = () => {
 
             <div className="col-2 d-flex justify-content-end mt-2 mx-2">
                 <select className="form-select mw-180 float-start" aria-label="Default select" onChange={handleCategoryFilter}>
-                    <option>Category</option>
+                    <option value="">Category</option>
                     {
                         categoryList?.map((ele: any, ind: any) => {
                             return (

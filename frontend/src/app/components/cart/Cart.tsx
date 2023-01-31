@@ -25,8 +25,9 @@ const Cart = () => {
         setTotalPrice(0);
         if (cartList?.records?.length) {
             let total = 0;
+            // eslint-disable-next-line array-callback-return
             cartList?.records.map((ele: any) => {
-                total = total + ele.price;
+                total = total + (ele.price * ele.quantity);
             });
             setTotalPrice(total);
         }
